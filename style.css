@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    
+}
+header{
+    height: 100px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-logo{
+    margin: 20px 0px 50px 30px;
+    width: 50%;
+}
+.container-logo img{
+    width: 100%;
+}
+.main-container-mockups{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 7%;
+    /* margin: auto; */
+}
+.main-container-mockups img{
+    width: 100%;
+}
+.main-container-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-container-info h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 35px 10% 20px;
+    font-size: 25px;
+     
+}
+.main-container-info p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0px 10%;
+    font-size: 16px;
+}
+.main-container-info button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:  hsl(257, 40%, 49%);     
+    width: 70%;
+    padding: 20px;
+    border-radius: 100px;
+    border: none;
+    margin: 20px auto;
+    
+}
+/* copiadp */
+.footer{
+    width: 40%;
+    margin:auto;
+}
+
+.footer__list{
+    margin: 60px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer__list--item{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    
+}
+
+.footer__list--item a{
+    color: #FFF;
+}
+
+.footer__list--item a:hover{
+    color: black;
+}
+/* 
+.center{
+    margin: 0 auto;
+} */
